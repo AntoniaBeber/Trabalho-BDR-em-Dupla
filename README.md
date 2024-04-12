@@ -1,26 +1,26 @@
-<h1>Trabalho Banco de Dados</h1>
+# Trabalho de Banco de Dados
 
 
-<h3>1. CRIAR UM BANCO DE DADOS CHAMADO AULA05_AGREGACAO;</h3>
-<br>
-<h3>2. CRIAR A TABELA UTILIZADA COMO EXEMPLO;</h3>
-<br>
-<h3>3. INSERIR OS REGISTROS JÁ EXISTENTES E MAIS OUTROS 6 REGISTROS;</h3>
-<br>
-<h3>4. SELECT (Todos os campos precisam conter um "Apelido"):</h3>
-<br>
-<div>
-  a. RETORNAR A SOMA TOTAL DO PREÇO DE VENDA;
-  <br>
-  b. RETORNAR A SOMA TOTAL DO PREÇO DE VENDA AGRUPADO POR DESCRIÇÃO;
-  <br>
-  C. RETORNAR A MÉDIA DO PREÇO DE VENDA POR CATEGORIA;
-  <br>
-  d. RETORNAR O PREÇO MÍNIMO DE VENDA, AGRUPADO POR DESCRICAO, ONDE O PREÇO DE VENDA SEJA MAIOR QUE 10 E MENOR QUE 20;
-  <br> 
-  e. RETORNAR A QUANTIDADE TOTAL DE LINHAS DA TABELA;
-  <br>
-  f. RETORNAR A QUANTIDADE TOTAL DE PRODUTOS WHERE A CATEGORIA É IGUAL A 2;
-   <br>
-  g. RETORNAR TODAS AS FUNÇÕES DE AGRAGAÇÕES EM UMA ÚNICA CONSULTA, AFIM DE OBTERMOS UM RESUMO GERAL DA TABELA;
+### 1. Criar um banco de dados
+- Banco de dados: `AULA05`
+
+### 2. Criar a tabela de exemplo
+
+### 3. Inserir registros
+
+### 4. Consultas SELECT
+
+##### a. Soma total do preço de venda
+
+##### b. Soma total do preço de venda agrupado por descrição
+
+##### c. Média do preço de venda por categoria
+
+##### d. Preço mínimo de venda agrupado por descrição
+
+##### e. Quantidade total de linhas da tabela
+
+##### f. Quantidade total de produtos onde a categoria é igual a 2
+
+##### g. Resumo geral da tabela com todas as funções de agregação em uma única consulta
 </div>
