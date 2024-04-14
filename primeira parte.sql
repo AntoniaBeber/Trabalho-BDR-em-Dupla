@@ -19,4 +19,6 @@ VALUES
 ('Grampeador','15.00','7.00',1),
 ('Carregador','20.00','10.50',2),
 ('Chaveiro','5.00', '1.25',3),
-('Bola de Isopor',
+('Bola de Isopor','15.00','7.00',1),
+('Livro', '20.00','11.00',2),
+('Apagador','7.50','2.30',1);
