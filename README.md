@@ -1,4 +1,4 @@
-# Trabalho de Banco de Dados
+# Banco de Dados - Funções de Agregação
 
 
 ### 1. Criar um banco de dados
