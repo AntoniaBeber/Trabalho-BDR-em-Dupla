@@ -35,29 +35,29 @@ Produtos;
 # Soma total do preço de venda agrupado por descrição
 SELECT
 	descricao as D,
-    sum(precoVenda)
+    sum(precoVenda) as pv
 FROM 	
 	produtos
 GROUP BY D
-HAVING sum(PRECOVENDA);
+HAVING pv;
 
 # Média do preço de venda por categoria
 SELECT
 	categoria as C,
-    avg(precoVenda)
+    avg(precoVenda) as pv
 FROM 	
 	produtos
 GROUP BY C
-HAVING avg(PRECOVENDA);
+HAVING pv;
 
 # Preço mínimo de venda agrupado por descrição
 SELECT
 	descricao as D,
-    min(precoVenda)
+    min(precoVenda) as pv
 FROM 	
 	produtos
 GROUP BY D
-HAVING min(PRECOVENDA);
+HAVING pv;
 
 # Quantidade total de linhas da tabela
 SELECT
@@ -68,16 +68,16 @@ FROM
 # Quantidade total de produtos onde a categoria é igual a 2
 SELECT
 	categoria as C,
-	count(codigo)
+	count(codigo) as count
 FROM 	
 	produtos
 GROUP BY C
-HAVING count(codigo);
+HAVING count;
 
 # Resumo geral da tabela com todas as funções de agregação em uma única consulta
 SELECT
   categoria as C,
-  count(codigo),
+  count(codigo) as count,
   max(precoCusto),
   min(precoCusto),
   avg(precoCusto),
@@ -88,4 +88,4 @@ From
   produtos
 GROUP BY C
 having   
-  count(codigo);
+  count;
